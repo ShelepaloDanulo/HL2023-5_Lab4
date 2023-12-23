@@ -1,0 +1,6 @@
+services:
+  hadoop:
+    image: apache/hadoop:3
+    entrypoint: bash /app/execution.sh
+    volumes:
+      - .:/app
